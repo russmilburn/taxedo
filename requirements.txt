@@ -1,0 +1,57 @@
+Tax 
+
+Import category list
+Import List of transactions
+Group Categories in to month-year
+product report with list of totals by category and month-year
+
+db and mongoose connection.
+
+In
+category = {
+	category : String
+	subcategory : String
+}
+
+transaction = {
+	date :  Date
+	desc : String
+	amount : Number
+	categoryId
+}
+
+out
+
+expensesData = 
+{
+	category : [
+	{
+		subCategory : String
+		Total : Number
+	},
+	{
+		subCategory : String
+		Total : Number
+	}],
+	monthYear : Number
+	total : Number
+	},
+	
+	category : [
+	{
+		subCategory : String
+		Total : Number
+	},
+	{
+		subCategory : String
+		Total : Number
+	}],
+	monthYear : Number
+	total : Number
+	}
+}
+	
+	
+
+
+

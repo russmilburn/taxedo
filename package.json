@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mongodb": "2.2.31",
+    "mongoose": "^5.0.13",
+    "q": "^1.4.1",
+    "papaparse": "^4.3.7",
+    "readline-sync": "^1.4.9",
+    "hashmap": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node src/start.js",
+    "debug": "node --inspect=9229 --debug-brk src/start.js",
+    "upload-categories": "",
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "name": "project-zeus",
+  "description": "tax programing script",
+  "version": "0.0.1",
+  "author": "russellmilburn",
+  "license": "ISC"
+}
